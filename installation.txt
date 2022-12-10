@@ -1,0 +1,22 @@
+1. Download Python from https://www.python.org/downloads 
+(Ref: https://data-flair.training/blogs/install-python-windows/)
+2. Create Project Folder "FastAPIDemo"
+3. Go to FastAPIDemo folder
+4. pip install fastapi uvicorn mangum
+5. uvicorn main:app --host 0.0.0.0 --port 80
+
+http://127.0.0.1
+
+WebAPI Testing with FastAPI
+http://127.0.0.1/docs
+
+----
+
+Procedure to build:
+1. pip install -t lib -r requirements.txt
+2. copy main.py into lib folder and create FastAPIDemo.zip
+3. Upload to AWS Lambda
+
+
+---
+https://github.com/pixegami/fastapi-tutorial
